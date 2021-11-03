@@ -1,0 +1,23 @@
+.Working {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 15vh;
+    min-width: 100px;
+    min-height: 75vh;
+    max-height: 85vh;
+    overflow: auto;
+}
+
+#arrow {
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+}
+
+textarea {
+    height: 60vh;
+    width: 30vw;
+    resize: none;
+}
