@@ -16,7 +16,11 @@
     font-size: 6rem;
 }
 
-textarea {
+textarea, #preview {
+    text-align: left;
+    background-color: white;
+    color: black;
+    overflow: auto;
     height: 60vh;
     width: 30vw;
     resize: none;
